@@ -1,3 +1,4 @@
+
 var number = 0;
 var questionArray = ['Adding one bit ____ the amount of information that can be represented.', 'A(n) ____ is the set of rules governing the exchange or transmission of data between devices.', 'The ____ created the first multi-computer network known as the ARPANET.', 'What does HTTP stand for?', 'ASCII is used to ______', 'A high-quality internet connection has______.','What program is used to access websites?','A .Com domain is typically used for a _____ site.','A ____ connects to the host server.','Images in the ____ domain are not protected by copyright.',
     'How do you start an HTML document?','What are some editors you can use to make HTML, CSS, etc? (Multiple Answers)','Which one of these fonts is not installed by default?','Which tag is used before an individual item in lists?','How do you link an external JavaScript page?','What tag shows a table row?','How do you correctly call an image in HTML?','How do you add a horizontal rule?','Which heading tag is the largest?','Which ways can you call a color in HTML?',
@@ -96,7 +97,15 @@ function counter() {
     number += 1;
     document.getElementById("QuestionLabel").innerHTML = "Question Number: " + number;
     if(number > 10 ) {
-    document.getElementById("QuestionLabel").innerHTML = "Congratulations..... you can stop now: " + number;
+    document.getElementById("QuestionLabel").innerHTML ="";
+    document.getElementsByTagName("P")[0].innerHTML ="Congratulations!";
+    document.getElementsByTagName("P")[1].innerHTML ="You have completed the quiz!";
+    document.getElementsByTagName("P")[1].style.color = "lightgreen";
+    document.getElementsByTagName("P")[0].style.color = "lightgreen";
+    document.getElementsByTagName("P")[3].innerHTML ="";
+    document.getElementsByTagName("P")[4].innerHTML ="";
+    document.getElementsByTagName("UL")[0].innerHTML ="";
+    document.getElementsByTagName("LI")[0].innerHTML ="";
     } 
     
 }
