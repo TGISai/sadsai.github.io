@@ -8,10 +8,12 @@ var answerArrayA = ['Doubles', 'Domain', 'Government', 'Hyperlink to Text Protoc
     'html', 'Android Studio', 'Times New Roman', 'ol', 'myFunction()=embed', 'tablerow', 'img src="image.jpg"', '"horizontalrule"', 'h3', 'color=#FFFFFF', 
     'h1 {color:red;}', 'h1 padding:5px', 'p {margin: 100px 150px 100px 80px;}', '%', 'Padding', 'border-left: red solid 6px;', 'font-family: |Comic Sans MS|;', 'a:hover', 'background-color: white;', 'gravity: falls;',
     'console.log("Text")','(Comment)','TEXTEXAMPLE','Storing and Manipulating Numbers','innerHTML','var javascript() = [This, IsAn, Array]','Java','console.log','if i == x then','function completeMath(x - y) {x*y}',];
+
 var answerArrayB = ['Triples', 'Protocol', 'Harvard College', 'Hypertext Transfer Protocol', 'Encrypt Passwords', 'Low Bandwidth; Low Latency', 'Android Studio', 'Government', 'Folder', 'Private', 
     '!DOCTYPE html', 'Brackets', 'Comic Sans MS', 'ul', 'link rel="javascript" type="text/javascript" href="theme.js"', 'th', 'a href="image"', 'hr', 'h6', 'color="white"', 
     'h1 color:red', 'h1 {padding:5px}', 'p {margin: 80px 100px 150px 100px;}', '*', 'Content', 'border-left: 6px solid red;', 'font-family: *Comic Sans MS*;', 'a:visited', 'backgroundcolor: white;', 'align-text: left;', 
     'document.write("Text")', '//Comment', 'TeXtExAmPlE', 'Writing Functions', 'getElementByClassName', 'var javascript = [This, IsAn, Array]', 'ECMScript', 'messageUser("Hi how are you")', 'if i = x then', 'function completeMath(x, y) {x*y}',];
+
 var answerArrayC = ['Halves', 'IP Address', 'Founders of Microsoft', 'Hypertext Translation Post', 'Create websites', 'High Bandwidth; High Latency', 'Adobe Illustrator', 'Educational', 'Download', 'Open',
     'head', 'Sublime', 'Arial', 'li', 'script src="myscripts.js"', 'td', 'script="image"', 'br', 'h1', 'Both of these answers are correct',
     'h1 {textcolor:red;}', 'h1 {margin:5px;}', 'p {margin: 150px 100px 80px 100px;}', '.', 'Margin', 'border-left: solid red 6px;', 'font-family: /Comic Sans MS/;', 'a:link', 'background_color: white;', 'text-align: left;',
@@ -22,7 +24,7 @@ var answerArrayD = ['Does nothing', 'Bit', 'Google Company', 'Helpful Transactio
     'logInformation(Now)', '!-- --', 'TextExample', 'Storing and Manipulating Text', 'getElementById', 'var javascript() = [This(), IsAn(), Array()]', 'HTMLScript', 'alert("Hi There");', 'if i = x', 'function completeMath x, y {x*y}',];
 
 var rightAnswers = ['Doubles', 'Protocol', 'Harvard College', 'Hypertext Transfer Protocol', 'Encode text in an easy to understand format', 'High Bandwidth; Low Latency', 'Internet Browser', 'Commercial', 'Client', 'Public',
-                       '!DOCTYPE html', 'Brackets, Sublime', 'Comic Sans MS', 'li', 'script src="myscripts.js"', 'tr', 'img src="image.jpg"', 'hr', 'h1', 'Both of these answers are correct',
+                       '!DOCTYPE html', 'Brackets, Sublime', 'Comic Sans MS', 'li', 'script src="myscripts.js"', 'tr', 'img src="dankmemes.jpg"', 'hr', 'h1', 'Both of these answers are correct',
                        'h1 {color:red;}', 'h1 {padding:5px;}', 'p {margin: 100px 150px 100px 80px;}', '#', 'Margin', 'border-left: 6px solid red;', 'font-family: "Comic Sans MS";', 'a:visited', 'background-color: white;', 'text-align: left;',
                        'console.log("Text")', '//Comment', 'textExample', 'Storing and Manipulating Text', 'innerHTML', 'var dankmemes = [Pepe, Dat Boi, Harambe]', 'ECMAScript', 'alert(“Hi There”);', 'if (i == x) then', 'function completeMath(x, y) {x*y}']
 
@@ -31,8 +33,8 @@ function random() { x = Math.random(); }
 function randomQuestion() {
     random();
  var randomnumber =    Math.floor(x * questionArray.length); 
-                document.getElementById("questionnumber").value = randomnumber;
-                var rand = questionArray[randomnumber];
+    document.getElementById("questionnumber").value = randomnumber;
+var rand = questionArray[randomnumber];
 document.getElementById("Question").innerHTML = rand;
     randomAnswerA();
     randomAnswerB();
@@ -46,14 +48,17 @@ function randomAnswerA() {
     var rand = answerArrayA[Math.floor(x * answerArrayA.length)];
     document.getElementById("a").innerHTML = rand;    
 }
+
 function randomAnswerB() {
     var rand = answerArrayB[Math.floor(x * answerArrayB.length)];
     document.getElementById("b").innerHTML = rand;    
 }
+
 function randomAnswerC() {
     var rand = answerArrayC[Math.floor(x * answerArrayC.length)];
     document.getElementById("c").innerHTML = rand;  
 }
+
 function randomAnswerD() {
     var rand = answerArrayD[Math.floor(x * answerArrayD.length)];
     document.getElementById("d").innerHTML = rand;  
@@ -91,6 +96,7 @@ function counter() {
     number += 1;
     document.getElementById("QuestionLabel").innerHTML = "Question Number: " + number;
     if(number > 10 ) {
-    document.getElementById("QuestionLabel").innerHTML = "It's time to stop: " + number;
+    document.getElementById("QuestionLabel").innerHTML = "lol rekt m80: " + number;
     } 
+    
 }
