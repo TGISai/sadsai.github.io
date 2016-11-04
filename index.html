@@ -7,46 +7,45 @@
         <script src="script.js"></script>
     </head>
     <body id="body">
-        <form>
-            <div class="outer">
-                <div class="inner">
-                    <p id="DirectionsLabel">Directions:</p>     
-                    <p id="Directions">Select an answer by clicking one of the options below (For some of the questions assume that there are less than and greater than symbols)</p>     
-                    <p id="QuestionLabel">Question:</p>     
-                    <p id="Question">In order to start the quiz, please press the Next Question button</p>     
-                </div>
-                <div id="verifybox"/>
+      
+        <div class="outer">
+            <div class="inner">
+                <p id="DirectionsLabel">Directions:</p>     
+                <p id="Directions">Select an answer by clicking one of the options below (For some of the questions assume that there are less than and greater than symbols)</p>     
+                <p id="QuestionLabel">Question:</p>     
+                <p id="Question">In order to start the quiz, please press the Next Question button</p>     
             </div>
-            <div class="answers">
-                <ul>
-                    <li>
-                        <input type="radio" id="option1" name="selector">
-                        <label id="a" for="option1">In order to</label>
-
-                        <div class="check"></div>
-                    </li>  
-                    <li>
-                        <input type="radio" id="option2" name="selector">
-                        <label for="option2" id="b">start the quiz,</label>
-
-                        <div class="check"><div class="inside"></div></div>
-                    </li>
-                    <li>
-                        <input type="radio" id="option3" name="selector">
-                        <label id="c" for="option3">please press the</label>
-
-                        <div class="check"><div class="inside"></div></div>
-                    </li>
-                    <li>
-                        <input type="radio" id="option4" name="selector">
-                        <label id="d" for="option4">Next Question button</label>
-                        <input type="hidden" id="questionnumber"/>
-                        <div class="check"><div class="inside"></div></div>
-                    </li>
-                </ul>
-            </div>
-        </form>
+            <div id="verifybox"/>
+        </div>
+        <div class="answers">
+            <ul>
+                <li>
+                    <input type="radio" id="option1" name="selector">
+                    <label id="a" for="option1">In order to</label>
+                    
+                    <div class="check"></div>
+                </li>  
+                <li>
+                    <input type="radio" id="option2" name="selector">
+                    <label for="option2" id="b">start the quiz,</label>
+                   
+                    <div class="check"><div class="inside"></div></div>
+                </li>
+                <li>
+                    <input type="radio" id="option3" name="selector">
+                    <label id="c" for="option3">please press the</label>
+                    
+                    <div class="check"><div class="inside"></div></div>
+                </li>
+                <li>
+                    <input type="radio" id="option4" name="selector">
+                    <label id="d" for="option4">Next Question button</label>
+                    <input type="hidden" id="questionnumber"/>
+                    <div class="check"><div class="inside"></div></div>
+                </li>
+            </ul>
+        </div>
         <button class="verifyanswer" onclick= "verify();" id="verify" onclick="verify()"><span>Verify Question</span></button> 
         <button class="nextbutton" onclick= "randomQuestion();" id="next"><span>Next Question</span></button> 
-    </body>
+            </body>
 </html>
