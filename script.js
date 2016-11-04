@@ -16,7 +16,7 @@ var answerArrayB = ['Triples', 'Protocol', 'Harvard College', 'Hypertext Transfe
     'document.write("Text")', '//Comment', 'TeXtExAmPlE', 'Writing Functions', 'getElementByClassName', 'var javascript = [This, IsAn, Array]', 'ECMScript', 'messageUser("Hi how are you")', 'if i = x then', 'function completeMath(x, y) {x*y}',];
 
 var answerArrayC = ['Halves', 'IP Address', 'Founders of Microsoft', 'Hypertext Translation Post', 'Create websites', 'High Bandwidth; High Latency', 'Adobe Illustrator', 'Educational', 'Download', 'Open',
-    'head', 'Sublime', 'Arial', 'li', 'script src="myscripts.js"', 'td', 'script="image"', 'br', 'h1', 'Both of these answers are correct',
+    'head', 'Premiere Pro', 'Arial', 'li', 'script src="myscripts.js"', 'td', 'script="image"', 'br', 'h1', 'Both of these answers are correct',
     'h1 {textcolor:red;}', 'h1 {margin:5px;}', 'p {margin: 150px 100px 80px 100px;}', '.', 'Margin', 'border-left: solid red 6px;', 'font-family: /Comic Sans MS/;', 'a:link', 'background_color: white;', 'text-align: left;',
     'myFunction(logConsole)', '/* */', 'textExample', 'Adding a CSS file', 'console.log', 'var javascript = This, IsAn, Array', 'ECMAScript', 'alertUser("Hi There");', 'if (i == x) then', 'function completeMath(x + y) {x*y}',];
 var answerArrayD = ['Does nothing', 'Bit', 'Google Company', 'Helpful Transaction Translation Pile', 'Access the console', 'Low Bandwidth; High Latency', 'Microsoft Paint', 'Organization', 'PDF', 'Closed', 
@@ -25,7 +25,7 @@ var answerArrayD = ['Does nothing', 'Bit', 'Google Company', 'Helpful Transactio
     'logInformation(Now)', '!-- --', 'TextExample', 'Storing and Manipulating Text', 'getElementById', 'var javascript() = [This(), IsAn(), Array()]', 'HTMLScript', 'alert("Hi There");', 'if i = x', 'function completeMath x, y {x*y}',];
 
 var rightAnswers = ['Doubles', 'Protocol', 'Harvard College', 'Hypertext Transfer Protocol', 'Encode text in an easy to understand format', 'High Bandwidth; Low Latency', 'Internet Browser', 'Commercial', 'Client', 'Public',
-                       '!DOCTYPE html', 'Brackets, Sublime', 'Comic Sans MS', 'li', 'script src="myscripts.js"', 'tr', 'img src="dankmemes.jpg"', 'hr', 'h1', 'Both of these answers are correct',
+                       '!DOCTYPE html', 'Brackets', 'Comic Sans MS', 'li', 'script src="myscripts.js"', 'tr', 'img src="dankmemes.jpg"', 'hr', 'h1', 'Both of these answers are correct',
                        'h1 {color:red;}', 'h1 {padding:5px;}', 'p {margin: 100px 150px 100px 80px;}', '#', 'Margin', 'border-left: 6px solid red;', 'font-family: "Comic Sans MS";', 'a:visited', 'background-color: white;', 'text-align: left;',
                        'console.log("Text")', '//Comment', 'textExample', 'Storing and Manipulating Text', 'innerHTML', 'var dankmemes = [Pepe, Dat Boi, Harambe]', 'ECMAScript', 'alert("Hi There");', 'if (i == x) then', 'function completeMath(x, y) {x*y}']
 
