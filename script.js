@@ -96,7 +96,7 @@ function counter() {
     number += 1;
     document.getElementById("QuestionLabel").innerHTML = "Question Number: " + number;
     if(number > 10 ) {
-    document.getElementById("QuestionLabel").innerHTML = "lol rekt m80: " + number;
+    document.getElementById("QuestionLabel").innerHTML = "Congratulations..... you can stop now: " + number;
     } 
     
 }
